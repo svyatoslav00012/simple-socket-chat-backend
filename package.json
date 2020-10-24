@@ -1,0 +1,21 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node socket-io-server.js",
+    "watch": "nodemon socket-io-server.js",
+    "watch-web": "nodemon web-socket-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0",
+    "websocket": "^1.0.32"
+  }
+}
